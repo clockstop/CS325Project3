@@ -53,6 +53,8 @@ public class changeByGreed {
 		double p = (double)Math.pow(10,2);
 		double tmp = 0;
 		
+		int test;
+		
 		Rval = Rval * p;
 		tmp = Math.round(Rval);
 		return (double)tmp/p;
