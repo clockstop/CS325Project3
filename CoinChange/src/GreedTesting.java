@@ -22,7 +22,7 @@ public class GreedTesting {
 	public void testComputeChangeNorm3() {
 		final int[] expectedArray = {3,2,0,0};
 		final changeByGreed input = new changeByGreed();
-		assertArrayEquals("Result: ", expectedArray, input.computeChange(.95));
+		assertArrayEquals("Results: ", expectedArray, input.computeChange(.95));
 	}
 	
 	@Test
